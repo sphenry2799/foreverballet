@@ -12,22 +12,18 @@
 /* Global styles */
  body {
     font-family: var(--primary-font);
-    padding-top: 57.15px; pushes top of the header down under fixed navbar
-   }
+      }
  h1, 
  h2, 
  h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
-    
- }  
-h1, 
-h2 {
-    text-transform: uppercase;
-}
-h2 {
+    }  
+
+
+/* h2 {
     margin-bottom: 2rem;
- }
+ } */
 
 .sub-heading-color {
     color: var(--light-highlight-color);
@@ -37,6 +33,13 @@ h2 {
     padding-top: 4rem;  /*to prevent navbar overlap*/
  }
 
+ .bgcolor {
+    background-color:#52b788;
+    color: #fdfffc
+ }
+ .sharp-corners {
+    border-radius: 0;
+ }
 #hero {
     background-image: url(../images/AH_300921_36995-scaled-1920x1280.jpg);
     background-color: #7a9fc2;
