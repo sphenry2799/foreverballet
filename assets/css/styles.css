@@ -1,23 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-/* Colour Palette */
-#a31621 
-
-/* color: #a31621;
-color: #ffffff;
-color: #1f7a8c;
-color: #52b788;
-color: #000000; */
-
 /* CSS Variables */
 :root {
-    --primary-font: "Lato", sans-serif;
-    --secondary-font: "Dancing+Script", serif;
+    --primary-font: 'Lato', sans-serif;
+    --secondary-font: 'Dancing Script', serif;
     --primary-color: #a31621; 
     --secondary-color: #aa9581;
     --highlight-color: #416a8e;
     --light-highlight-color: #7a9fc2;
 }
+/* Global styles */
+ body {
+    font-family: var(--primary-font);
+    padding-top: 57.15px; pushes top of the header down under fixed navbar
+   }
+ h1, 
+ h2, 
+ h3 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    
+ }  
+h1, 
+h2 {
+    text-transform: uppercase;
+}
+h2 {
+    margin-bottom: 2rem;
+ }
+
+.sub-heading-color {
+    color: var(--light-highlight-color);
+ }
+
+ .section {
+    padding-top: 4rem;  /*to prevent navbar overlap*/
+ }
 
 #hero {
     background-image: url(../images/AH_300921_36995-scaled-1920x1280.jpg);
