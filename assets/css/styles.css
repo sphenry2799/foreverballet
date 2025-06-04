@@ -34,7 +34,7 @@
  }
 
  .bgcolor {
-    background-color:#52b788;
+    background-color:#1f7a8c;
     color: #fdfffc
  }
  .sharp-corners {
@@ -42,7 +42,14 @@
  }
 #hero {
     background-image: url(../images/AH_300921_36995-scaled-1920x1280.jpg);
-    background-color: #7a9fc2;
+    background-color: #1f7a8c;
     background-size: cover;
     min-height: 500px;
+}
+#contact {
+     background-color: #a31621;
+     color: white;
+}
+#contact .display-6 {
+   color: #fdfffc;
 }
