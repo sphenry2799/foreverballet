@@ -5,9 +5,9 @@
     --primary-font: 'Lato', sans-serif;
     --secondary-font: 'Dancing Script', serif;
     --primary-color: #a31621; 
-    --secondary-color: #aa9581;
+    --secondary-color: #52b788;
     --highlight-color: #416a8e;
-    --light-highlight-color: #7a9fc2;
+    --light-highlight-color: #fdfffc;
 }
 /* Global styles */
  body {
@@ -29,8 +29,11 @@
     color: var(--light-highlight-color);
  }
 
+ .intro {
+   font-size: 1.5rem;
+ }
  .section {
-    padding-top: 4rem;  /*to prevent navbar overlap*/
+    padding-top: 2rem;  /*to prevent navbar overlap*/
  }
 
  .bgcolor {
@@ -46,10 +49,19 @@
     background-size: cover;
     min-height: 500px;
 }
+#gallery {
+   padding-top: 3rem;
+}
+#about {
+   background-color: #52b788;
+}
 #contact {
      background-color: #a31621;
      color: white;
 }
 #contact .display-6 {
    color: #fdfffc;
+}
+#contact .table * {
+    background-color: transparent;
 }
