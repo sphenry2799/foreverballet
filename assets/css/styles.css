@@ -20,7 +20,6 @@
     color: var(--primary-color);
     }  
 
-
 /* h2 {
     margin-bottom: 2rem;
  } */
@@ -36,26 +35,20 @@
     padding-top: 2rem;  /*to prevent navbar overlap*/
  }
 
- .bgcolor {
-    background-color:#1f7a8c;
-    color: #fdfffc
+ .navbar-dark {
+     background-color: #52b788;
+     text-color: ffdfffc;
  }
-
- .bg-primary {
-   background-color: #52b788
-}
 
  .sharp-corners {
     border-radius: 0;
  }
+#welcome {
+   background-image: url(../images/intermediate-pointe-class.webp);
+   background-size: cover;
+ }
 
-#hero {
-    background-image: url(../images/AH_300921_36995-scaled-1920x1280.jpg);
-    background-color: #1f7a8c;
-    background-size: cover;
-    min-height: 500px;
-}
-#about {
+.about {
    background-color: #52b788;
 }
 #contact {
