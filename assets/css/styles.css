@@ -40,17 +40,20 @@
     background-color:#1f7a8c;
     color: #fdfffc
  }
+
+ .bg-primary {
+   background-color: #52b788
+}
+
  .sharp-corners {
     border-radius: 0;
  }
+
 #hero {
     background-image: url(../images/AH_300921_36995-scaled-1920x1280.jpg);
     background-color: #1f7a8c;
     background-size: cover;
     min-height: 500px;
-}
-#gallery {
-   padding-top: 3rem;
 }
 #about {
    background-color: #52b788;
@@ -64,4 +67,7 @@
 }
 #contact .table * {
     background-color: transparent;
+}
+#footer{
+   
 }
