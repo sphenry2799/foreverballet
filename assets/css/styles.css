@@ -12,6 +12,7 @@
 /* Global styles */
  body {
     font-family: var(--primary-font);
+    background-image: url(../images/abstract_background.jpg);
       }
  h1, 
  h2, 
@@ -37,15 +38,17 @@
 
  .navbar-dark {
      background-color: #52b788;
-     text-color: ffdfffc;
+     color: ffdfffc;
  }
 
  .sharp-corners {
     border-radius: 0;
  }
 #welcome {
-   background-image: url(../images/intermediate-pointe-class.webp);
-   background-size: cover;
+   height: 1000px;
+   width: auto;
+   background: url(../images/intermediate-pointe-class.webp) no-repeat center center/cover;
+   position: relative;
  }
 
 .about {
