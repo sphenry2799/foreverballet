@@ -1,69 +1,87 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 /* CSS Variables */
 :root {
-    --primary-font: 'Lato', sans-serif;
-    --secondary-font: 'Dancing Script', serif;
-    --primary-color: #a31621; 
-    --secondary-color: #52b788;
-    --highlight-color: #416a8e;
-    --light-highlight-color: #fdfffc;
+  --primary-font: "Lato", sans-serif;
+  --secondary-font: "Dancing Script", serif;
+  --primary-color: #a31621;
+  --secondary-color: #52b788;
+  --highlight-color: #416a8e;
+  --light-highlight-color: #fdfffc;
 }
 /* Global styles */
- body {
-    font-family: var(--primary-font);
-    background-image: url(../images/abstract_background.jpg);
-      }
- h1, 
- h2, 
- h3 {
-    font-family: var(--secondary-font);
-    color: var(--primary-color);
-    }  
+body {
+  font-family: var(--primary-font);
+  background-image: url(../images/abstract_background.jpg);
+}
+h1,
+h2,
+h3 {
+  font-family: var(--secondary-font);
+  color: var(--primary-color);
+}
 
 /* h2 {
     margin-bottom: 2rem;
  } */
 
 .sub-heading-color {
-    color: var(--light-highlight-color);
- }
+  color: var(--light-highlight-color);
+}
 
- .intro {
-   font-size: 1.5rem;
- }
- .section {
-    padding-top: 2rem;  /*to prevent navbar overlap*/
- }
+.intro {
+  font-size: 1.5rem;
+}
+.section {
+  padding-top: 2rem; /*to prevent navbar overlap*/
+}
 
- .navbar-dark {
-     background-color: #52b788;
-     color: ffdfffc;
- }
+.navbar-dark {
+  background-color: #52b788;
+  color: ffdfffc;
+}
 
- .sharp-corners {
-    border-radius: 0;
- }
-#welcome {
-   height: 1000px;
-   width: auto;
-   background: url(../images/intermediate-pointe-class.webp) no-repeat center center/cover;
-   position: relative;
- }
+.sharp-corners {
+  border-radius: 0;
+}
 
 .about {
-   background-color: #52b788;
+  background-color: #52b788;
+}
+
+.header-container {
+  position: relative;
+  width: 75%;
+}
+.header-text {
+  background-color: rgba(2, 1, 0, 0.5);
+  position: absolute;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Correct for centering */
+  color: white; /* Or any color you want */
+  font-size: 2em; /* Or any size you want */
+}
+#welcome {
+  height: 1000px;
+  width: auto;
+  background: url(../images/intermediate-pointe-class.webp) no-repeat center
+    center/cover;
+  position: relative;
+}
+
+#header .lead {
+  font-family: var(--secondary-font);
 }
 #contact {
-     background-color: #a31621;
-     color: white;
+  background-color: #a31621;
+  color: white;
 }
 #contact .display-6 {
-   color: #fdfffc;
+  color: #fdfffc;
 }
 #contact .table * {
-    background-color: transparent;
+  background-color: transparent;
 }
-#footer{
-   
+#footer {
 }
