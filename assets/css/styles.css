@@ -54,7 +54,7 @@ h3 {
   width: 75%;
 }
 .header-text {
-  background-color: rgba(2, 1, 0, 0.5);
+  background-color: rgba(163, 22, 33, 0.7);
   position: absolute;
   top: 50%; /* Center vertically */
   left: 50%; /* Center horizontally */
@@ -69,7 +69,9 @@ h3 {
     center/cover;
   position: relative;
 }
-
+#gallery {
+  color: #fdfffc;
+}
 #header .lead {
   font-family: var(--secondary-font);
 }
