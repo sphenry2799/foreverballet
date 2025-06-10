@@ -46,7 +46,11 @@ h3 {
 }
 
 .about {
-  background-color: #52b788;
+  background-color: #416a8e;
+}
+
+.classes {
+  background-color: #416a8e;
 }
 
 .header-container {
@@ -58,9 +62,9 @@ h3 {
   position: absolute;
   top: 50%; /* Center vertically */
   left: 50%; /* Center horizontally */
-  transform: translate(-50%, -50%); /* Correct for centering */
-  color: white; /* Or any color you want */
-  font-size: 2em; /* Or any size you want */
+  transform: translate(-50%, -50%); /* centering */
+  color: white;
+  font-size: 2em;
 }
 #welcome {
   height: 1000px;
@@ -86,4 +90,6 @@ h3 {
   background-color: transparent;
 }
 #footer {
+  background-color: #52b788;
+  color: var(--light-highlight-color);
 }
