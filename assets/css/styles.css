@@ -45,14 +45,6 @@ h3 {
   border-radius: 0;
 }
 
-.about {
-  background-color: #416a8e;
-}
-
-.classes {
-  background-color: #416a8e;
-}
-
 .header-container {
   position: relative;
   width: 75%;
@@ -65,7 +57,15 @@ h3 {
   transform: translate(-50%, -50%); /* centering */
   color: white;
   font-size: 2em;
+  text-shadow: 2px 2px #020100;
 }
+a {
+  color: #fdfffc;
+}
+a:hover {
+  color: rgba(65, 106, 142, 0.5);
+}
+
 #welcome {
   height: 1000px;
   width: auto;
@@ -73,22 +73,22 @@ h3 {
     center/cover;
   position: relative;
 }
+#about {
+  background-color: #fdfffc;
+  color: #020100;
+}
+#classes {
+  background-color: #fdfffc;
+  color: #fdfffc;
+}
 #gallery {
+  background-color: #fdfffc;
   color: #fdfffc;
 }
 #header .lead {
   font-family: var(--secondary-font);
 }
-#contact {
-  background-color: #a31621;
-  color: white;
-}
-#contact .display-6 {
-  color: #fdfffc;
-}
-#contact .table * {
-  background-color: transparent;
-}
+
 #footer {
   background-color: #52b788;
   color: var(--light-highlight-color);
