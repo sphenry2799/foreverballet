@@ -20,6 +20,9 @@ h3 {
   font-family: var(--secondary-font);
   color: var(--primary-color);
 }
+h1 {
+  text-shadow: 2px 2px #020100;
+}
 
 a {
   color: #fdfffc;
@@ -35,11 +38,8 @@ address {
   color: var(--highlight-color);
 }
 
-.intro {
-  font-size: 1.5rem;
-}
 .section {
-  padding-top: 2rem; /*to prevent navbar overlap*/
+  padding-top: 4rem; /*to prevent navbar overlap*/
 }
 
 .navbar-dark {
@@ -75,6 +75,7 @@ address {
   background-color: #416a83;
   border-color: #416a8e;
 }
+
 #welcome {
   height: 1000px;
   width: auto;
@@ -90,6 +91,7 @@ address {
   background-color: #fdfffc;
   color: #fdfffc;
 }
+
 #gallery {
   background-color: #fdfffc;
   color: #fdfffc;
