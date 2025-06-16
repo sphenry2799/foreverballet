@@ -8,6 +8,10 @@
   --secondary-color: #52b788;
   --highlight-color: #416a8e;
   --light-highlight-color: #fdfffc;
+  --black-color: #020100;
+  --soft-primary-color: rgba(163, 22, 33, 0.7);
+  --transparent-red: rgba(163, 22, 33, 0.4);
+  --soft-blue: rgba(65, 106, 142, 0.5);
 }
 /* Global styles */
 body {
@@ -21,16 +25,16 @@ h3 {
   color: var(--primary-color);
 }
 h1 {
-  text-shadow: 2px 2px #020100;
+  text-shadow: 2px 2px var(--black-color);
 }
 
 a {
-  color: #fdfffc;
+  color: var(--light-highlight-color);
   text-decoration: none;
 }
 
 a:hover {
-  color: rgba(65, 106, 142, 0.5);
+  color: var(--highlight-color);
 }
 
 address {
@@ -41,13 +45,14 @@ address {
   color: var(--highlight-color);
 }
 
+/*to prevent navbar overlap*/
 .section {
-  padding-top: 4.5rem; /*to prevent navbar overlap*/
+  padding-top: 4.5rem;
 }
 
 .navbar-dark {
-  background-color: #52b788;
-  color: ffdfffc;
+  background-color: var(--secondary-color);
+  color: var(--light-highlight-color);
 }
 
 .sharp-corners {
@@ -60,14 +65,14 @@ address {
 }
 
 .centred-header-text {
-  background-color: rgba(163, 22, 33, 0.7);
+  background-color: var(--soft-primary-color);
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: var(--light-highlight-color);
   font-size: 2em;
-  text-shadow: 2px 2px #020100;
+  text-shadow: 2px 2px var(--black-color);
 }
 
 .img-fluid {
@@ -76,11 +81,11 @@ address {
 }
 
 .btn-primary {
-  background-color: #416a83;
-  border-color: #416a8e;
+  background-color: var(--highlight-color);
+  border-color: var(--highlight-color);
 }
-.bi-building {
-  color: rgba(163, 22, 33, 0.4);
+.fa-building {
+  color: var(--transparent-red);
 }
 
 .img-fluid {
@@ -89,34 +94,34 @@ address {
 }
 
 #welcome {
-  height: 1000px;
+  height: 68rem;
   width: auto;
   background: url(../images/hero-image.jpg) no-repeat center center/cover;
   position: relative;
 }
 #about {
-  background-color: #fdfffc;
-  color: #020100;
+  background-color: var(--light-highlight-color);
+  color: var(--black-color);
   font-size: 18px;
   text-align: justify;
 }
 #classes {
-  background-color: #fdfffc;
-  color: #fdfffc;
+  background-color: var(--light-highlight-color);
+  color: var(--light-highlight-color);
 }
 #gallery {
-  background-color: #fdfffc;
-  color: #fdfffc;
+  background-color: var(--light-highlight-color);
+  color: var(--light-highlight-color);
 }
 
 #contact {
-  background-color: #fdfffc;
+  background-color: #var(--light-highlight-color);
   color: #020100;
 }
 #contact p {
   font-size: 1.2rem;
 }
 #footer {
-  background-color: #52b788;
+  background-color: var(--secondary-color);
   color: var(--light-highlight-color);
 }
