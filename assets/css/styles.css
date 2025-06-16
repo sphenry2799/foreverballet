@@ -75,7 +75,7 @@ address {
   transform: translate(-50%, -50%);
   color: var(--light-highlight-color);
   font-size: 2em;
-  text-shadow: 2px 2px var(--black-color);
+  text-shadow: 1px 1px var(--black-color);
 }
 
 .img-fluid {
