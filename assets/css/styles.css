@@ -13,17 +13,20 @@
   --transparent-red: rgba(163, 22, 33, 0.4);
   --soft-blue: rgba(65, 106, 142, 0.5);
 }
+
 /* Global styles */
 body {
   font-family: var(--primary-font);
   background-image: url(../images/abstract_background.jpg);
 }
+
 h1,
 h2,
 h3 {
   font-family: var(--secondary-font);
   color: var(--primary-color);
 }
+
 h1 {
   text-shadow: 2px 2px var(--black-color);
 }
@@ -38,7 +41,7 @@ a:hover {
 }
 
 address {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .sub-heading-color {
@@ -84,6 +87,7 @@ address {
   background-color: var(--highlight-color);
   border-color: var(--highlight-color);
 }
+
 .fa-building {
   color: var(--transparent-red);
 }
@@ -94,33 +98,38 @@ address {
 }
 
 #welcome {
-  height: 68rem;
+  height: 66rem;
   width: auto;
   background: url(../images/hero-image.jpg) no-repeat center center/cover;
   position: relative;
 }
+
 #about {
   background-color: var(--light-highlight-color);
   color: var(--black-color);
   font-size: 18px;
   text-align: justify;
 }
+
 #classes {
   background-color: var(--light-highlight-color);
   color: var(--light-highlight-color);
 }
+
 #gallery {
   background-color: var(--light-highlight-color);
   color: var(--light-highlight-color);
 }
 
 #contact {
-  background-color: #var(--light-highlight-color);
-  color: #020100;
+  background-color: var(--light-highlight-color);
+  color: var(--black-color);
 }
+
 #contact p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
+
 #footer {
   background-color: var(--secondary-color);
   color: var(--light-highlight-color);
