@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
 /* CSS Variables */
 :root {
   --primary-font: "Lato", sans-serif;
@@ -27,7 +28,9 @@ h1 {
 
 a {
   color: #fdfffc;
+  text-decoration: none;
 }
+
 a:hover {
   color: rgba(65, 106, 142, 0.5);
 }
@@ -35,6 +38,7 @@ a:hover {
 address {
   font-size: 1.2rem;
 }
+
 .sub-heading-color {
   color: var(--highlight-color);
 }
@@ -56,6 +60,7 @@ address {
   position: relative;
   width: 75%;
 }
+
 .header-text {
   background-color: rgba(163, 22, 33, 0.7);
   position: absolute;
@@ -80,6 +85,11 @@ address {
   color: rgba(163, 22, 33, 0.4);
 }
 
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
 #welcome {
   height: 1000px;
   width: auto;
@@ -96,15 +106,11 @@ address {
   background-color: #fdfffc;
   color: #fdfffc;
 }
-
 #gallery {
   background-color: #fdfffc;
   color: #fdfffc;
 }
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-}
+
 #contact {
   background-color: #fdfffc;
   color: #020100;
