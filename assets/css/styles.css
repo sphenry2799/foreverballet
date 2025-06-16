@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
-
 /* CSS Variables */
 :root {
   --primary-font: "Lato", sans-serif;
@@ -61,12 +59,12 @@ address {
   width: 75%;
 }
 
-.header-text {
+.centred-header-text {
   background-color: rgba(163, 22, 33, 0.7);
   position: absolute;
-  top: 50%; /* Center vertically */
-  left: 50%; /* Center horizontally */
-  transform: translate(-50%, -50%); /* centering */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: white;
   font-size: 2em;
   text-shadow: 2px 2px #020100;
