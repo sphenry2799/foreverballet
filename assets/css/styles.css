@@ -28,7 +28,7 @@ h3 {
 }
 
 h1 {
-  text-shadow: 2px 2px var(--black-color);
+  text-shadow: 1px 1px var(--black-color);
 }
 
 a {
