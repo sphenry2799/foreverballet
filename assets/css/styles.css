@@ -107,7 +107,7 @@ address {
 #about {
   background-color: var(--light-highlight-color);
   color: var(--black-color);
-  font-size: 18px;
+  font-size: 1.1rem;
   text-align: justify;
 }
 
@@ -124,10 +124,6 @@ address {
 #contact {
   background-color: var(--light-highlight-color);
   color: var(--black-color);
-}
-
-#contact p {
-  font-size: 1.1rem;
 }
 
 #footer {
