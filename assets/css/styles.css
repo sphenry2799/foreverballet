@@ -53,7 +53,9 @@ a:hover {
   background-color: var(--secondary-color);
   color: var(--light-highlight-color);
 }
-
+.nav-link:hover {
+  color: var(--highlight-color;);
+}
 .sharp-corners {
   border-radius: 0;
 }
