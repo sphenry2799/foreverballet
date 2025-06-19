@@ -37,7 +37,7 @@ a {
 }
 
 a:hover {
-  color: var(--highlight-color);
+  color: var(--soft-blue);
 }
 
 .sub-heading-color {
