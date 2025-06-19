@@ -20,7 +20,11 @@ body {
   background-image: url(../images/abstract_background.jpg);
 }
 
-h1,
+h1 {
+  font-family: var(--secondary-font);
+  color: var(--light-highlight-color);
+}
+
 h2,
 h3 {
   font-family: var(--secondary-font);
@@ -56,6 +60,10 @@ a:hover {
 .nav-link:hover {
   color: var(--primary-color);
 }
+
+.nav-link {
+  font-weight: 600;
+}
 .sharp-corners {
   border-radius: 0;
 }
@@ -63,6 +71,7 @@ a:hover {
 .header-container {
   position: relative;
   width: 75%;
+  color: var(--light-highlight-color);
 }
 
 .centred-header-text {
