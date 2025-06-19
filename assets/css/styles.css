@@ -89,6 +89,7 @@ a:hover {
 .btn-primary:hover {
   background-color: var(--primary-color);
   color: var(--light-highlight-color);
+  border-color: var(--primary-color);
 }
 
 .fa-building {
