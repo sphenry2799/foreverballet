@@ -63,6 +63,7 @@ a:hover {
 
 .nav-link {
   font-weight: 600;
+  color: var(--light-highlight-color);
 }
 .sharp-corners {
   border-radius: 0;
