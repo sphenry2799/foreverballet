@@ -89,6 +89,7 @@ a:hover {
 .btn-primary:hover {
   color: var(--primary-color);
 }
+
 .fa-building {
   color: var(--transparent-red);
 }
