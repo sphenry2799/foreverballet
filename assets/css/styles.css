@@ -54,7 +54,7 @@ a:hover {
   color: var(--light-highlight-color);
 }
 .nav-link:hover {
-  color: var(--highlight-color;);
+  color: var(--primary-color);
 }
 .sharp-corners {
   border-radius: 0;
@@ -86,6 +86,9 @@ a:hover {
   border-color: var(--highlight-color);
 }
 
+.btn-primary:hover {
+  color: var(--primary-color);
+}
 .fa-building {
   color: var(--transparent-red);
 }
