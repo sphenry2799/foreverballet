@@ -104,13 +104,13 @@ a:hover {
 
 .btn-primary {
   background-color: var(--highlight-color);
-  border-color: var(--highlight-color);
+  border: var(--highlight-color);
 }
 
 .btn-primary:hover {
   background-color: var(--primary-color);
   color: var(--light-highlight-color);
-  border-color: var(--primary-color);
+  border: var(--primary-color);
 }
 
 .fa-building {
