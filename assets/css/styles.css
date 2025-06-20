@@ -7,7 +7,7 @@
   --secondary-font: "Dancing Script", serif;
   --primary-color: #a31621;
   --secondary-color: #52b788;
-  --highlight-color: #416a8e;
+  --deep-blue-color: #416a8e;
   --light-highlight-color: #fdfffc;
   --black-color: #020100;
   --soft-primary-color: rgba(163, 22, 33, 0.7);
@@ -33,12 +33,15 @@ h1 {
   color: var(--light-highlight-color);
 }
 
-h2,
-h3 {
+h2 {
   font-family: var(--secondary-font);
   color: var(--primary-color);
 }
 
+h3 {
+  font-family: var(--secondary-font);
+  color: var(--secondary-color);
+}
 h1 {
   text-shadow: 1px 1px var(--black-color);
 }
@@ -62,7 +65,7 @@ a:hover {
 }
 
 .navbar-dark {
-  background-color: var(--secondary-color);
+  background-color: var(--deep-blue-color);
   color: var(--light-highlight-color);
 }
 .nav-link:hover {
@@ -70,7 +73,7 @@ a:hover {
 }
 
 .nav-link {
-  font-weight: 600;
+  font-weight: 550;
   color: var(--light-highlight-color);
 }
 .sharp-corners {
@@ -149,6 +152,6 @@ a:hover {
 }
 
 #footer {
-  background-color: var(--secondary-color);
+  background-color: var(--deep-blue-color);
   color: var(--light-highlight-color);
 }
