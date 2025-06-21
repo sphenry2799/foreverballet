@@ -84,7 +84,7 @@ a:hover {
 }
 
 .centred-header-text {
-  background-color: var(--soft-primary-color);
+  background-color: var(--secondary-color);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -123,6 +123,7 @@ a:hover {
   height: 62rem;
   width: auto;
   background: url(../images/hero-image.webp) no-repeat center center/cover;
+  background-color: #52b788;
   position: relative;
 }
 
