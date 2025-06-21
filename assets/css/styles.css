@@ -101,7 +101,7 @@ a:hover {
 
 .btn-primary {
   background-color: var(--deep-blue-color);
-  border-color: 0;
+  border-color: var(--deep-blue-color);
 }
 
 .btn-primary:hover {
