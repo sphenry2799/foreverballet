@@ -16,7 +16,6 @@
 }
 
 /* Global styles */
-
 * {
   margin: 0;
   padding: 0;
@@ -64,6 +63,7 @@ a:hover {
   background-color: var(--deep-blue-color);
   color: var(--light-highlight-color);
 }
+
 .nav-link:hover {
   color: var(--primary-color);
 }
@@ -72,6 +72,7 @@ a:hover {
   font-weight: 550;
   color: var(--light-highlight-color);
 }
+
 .sharp-corners {
   border-radius: 0;
 }
