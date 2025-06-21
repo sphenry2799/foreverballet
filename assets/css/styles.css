@@ -84,7 +84,7 @@ a:hover {
 }
 
 .centred-header-text {
-  background-color: var(--secondary-color);
+  background-color: var(--soft-primary-color);
   position: absolute;
   top: 50%;
   left: 50%;
