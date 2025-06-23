@@ -41,9 +41,9 @@ h3 {
   font-family: var(--secondary-font);
   color: var(--deep-blue-color);
 }
-h1 {
+/* h1 {
   text-shadow: 1px 1px var(--black-color);
-}
+} */
 
 a {
   color: var(--light-highlight-color);
