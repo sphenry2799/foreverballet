@@ -41,9 +41,6 @@ h3 {
   font-family: var(--secondary-font);
   color: var(--deep-blue-color);
 }
-/* h1 {
-  text-shadow: 1px 1px var(--black-color);
-} */
 
 a {
   color: var(--light-highlight-color);
@@ -114,16 +111,11 @@ a:hover {
   color: var(--transparent-red);
 }
 
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-}
-
 #welcome {
-  height: 62rem;
+  height: 66rem;
   width: auto;
   background: url(../images/hero-image.webp) no-repeat center center/cover;
-  background-color: #52b788;
+  background-color: var(--secondary-color);
   position: relative;
 }
 
