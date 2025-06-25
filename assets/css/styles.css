@@ -108,6 +108,9 @@ a:hover {
 .below-heading {
   font-family: var(--secondary-font);
 }
+.direct {
+  list-style: none;
+}
 
 .btn-primary:hover {
   background-color: var(--primary-color);
