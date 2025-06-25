@@ -101,6 +101,10 @@ a:hover {
   border-color: var(--deep-blue-color);
 }
 
+.height {
+  min-height: 74vh;
+}
+
 .btn-primary:hover {
   background-color: var(--primary-color);
   color: var(--light-highlight-color);
