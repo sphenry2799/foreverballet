@@ -105,6 +105,10 @@ a:hover {
   min-height: 85vh;
 }
 
+.below-heading {
+  font-family: var(--secondary-font);
+}
+
 .btn-primary:hover {
   background-color: var(--primary-color);
   color: var(--light-highlight-color);
