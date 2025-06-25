@@ -134,26 +134,30 @@ a:hover {
 #about {
   background-color: var(--light-highlight-color);
   color: var(--black-color);
-  font-size: 1.1rem;
+  font-size: 1.025rem;
   text-align: left;
 }
 
 #classes {
   background-color: var(--light-highlight-color);
   color: var(--light-highlight-color);
+  font-size: 1.025rem;
 }
 
 #gallery {
   background-color: var(--light-highlight-color);
   color: var(--light-highlight-color);
+  font-size: 1.025rem;
 }
 
 #contact {
   background-color: var(--light-highlight-color);
   color: var(--black-color);
+  font-size: 1.025rem;
 }
 
 #footer {
   background-color: var(--deep-blue-color);
   color: var(--light-highlight-color);
+  font-size: 1.1rem;
 }
